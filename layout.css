@@ -1,0 +1,114 @@
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer div{
+	text-align: center;
+	width: 100%;
+	background-color: #6FA8DC;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	float: right;
+	margin-top: 170px;
+}
+
+header{
+	height: 80px;
+	width: 100%;
+	border: 2px solid #000;
+	background-color: #CCE4F7;
+	overflow: hidden;
+	position: fixed;
+  	top: 0;
+}
+
+.logo img{
+	width: 80px;
+	height: 80px;
+	margin: 0 0 20px 150px;
+}
+
+.logo p{
+	font-size: 25px;
+	margin: -82px 0 0 240px;
+}
+
+.intro{
+	background-color: #6FA8DC;
+	line-height: 7px;
+	margin-top: 100px;
+}
+
+.text-1{
+	font-style: italic;
+	color: #fff;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.text-2{
+	color: #fff;
+	text-indent: 820px;
+	padding-bottom: 10px;
+}
+
+.nav ul{
+	float: right;
+	margin: -28px 200px 20px 0;
+}
+
+
+.nav ul li{
+	list-style-type: none;
+	float: left;
+	
+}
+
+.nav ul li a{
+	color: #6FA8DC;
+}
+
+.content{
+	padding: 0 120px;
+	float: right;
+}
+
+.content div{
+	width: 25%;
+	height: auto;
+	float: left;
+	margin: 0 40px;
+}
+
+.content div h3 a{
+	color: #6FA8DC;
+}
+
+.content div > img{
+	width: 100%;
+	height: auto;
+}
+
+#myBtn {
+    position: fixed;
+    bottom: 50px;
+    float: left;
+    left: 92%;
+    max-width: 100px;
+    width: 100px;
+    font-size: 14px;
+    border-color: #eeeee;
+    background-color: #CCFFCC;
+    padding: 3px;
+    border-radius: 4px;
+
+}
+
+#myBtn:hover a{
+        text-decoration: none;
+}
+
+#myBtn a{
+    	color: #000;
+    	text-decoration: none;
+}
